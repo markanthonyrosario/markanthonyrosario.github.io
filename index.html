@@ -1,45 +1,74 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+---
+layout: page
+tagline:
+---
 
-	<title>Mark Anthony Rosario | PHP Dev</title>
+{% for post in paginator.posts %}
 
-	<link rel="icon" href="favicon.ico" type="image/png" />
+<article class="home">
 
-	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
-	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/styles.css">
-<!-- 	<link rel="stylesheet" href="css/themes/indigo-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/green-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/red-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/grey-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-indigo.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-blue.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-grey.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-red.css"> -->
-	<link rel="stylesheet" href="css/themes/yellow-black.css">
-</head>
-<body>
-	<main>
-		<div class="intro">Hello, I'm Mark!</div>
-		<div class="tagline">PHP Developer | Devops Nut | Technical Lead </div>
-		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
-		<div class="icons-social">
-			<a target="_blank" href="https://github.com/markanthonyrosario"><i class="fab fa-github"></i></a>
-<!-- 			<a target="_blank" href="https://twitter.com/#"><i class="fab fa-twitter"></i></a> -->
-<!-- 			<a target="_blank" href="https://stackoverflow.com/story/#"><i class="fab fa-stack-overflow"></i></a> -->
-			<a target="_blank" href="https://ph.linkedin.com/in/mark-anthony-rosario"><i class="fab fa-linkedin"></i></a>
-			<a target="_blank" href="https://kesobits.wordpress.com"><i class="fas fa-globe"></i></a>
-<!-- 			<a target="_blank" href="https://medium.com/$"><i class="fab fa-medium"></i></a> -->
-<!-- 			<a target="_blank" href="https://www.freecodecamp.org"><i class="fab fa-free-code-camp"></i></a> -->
-<!-- 			<a target="_blank" href="https://www.behance.net"><i class="fab fa-behance"></i></a> -->
-<!-- 			<a target="_blank" href="https://codepen.io"><i class="fab fa-codepen"></i></a> -->
-    </div>
-		<a href="https://m.do.co/c/3b1ae81d3d79">Free $10 digital ocean credits (for new users)  </a>
-	</main>
-</body>
-</html>
+  <span class="post-date">
+    {% assign d = post.date | date: "%d" | plus:'0' %}
+    {{ post.date | date: "%B" }}
+    {% case d %}
+    {% when 1 or 21 or 31 %}{{ d }}st,
+    {% when 2 or 22 %}{{ d }}nd,
+    {% when 3 or 23 %}{{ d }}rd,
+    {% else %}{{ d }}th,
+    {% endcase %}
+    {{ post.date | date: "%Y" }}
+  </span>
+
+  <h2>
+    <a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+  </h2>
+
+  <div>
+    {% if post.fullview %}
+    {{ post.content }}
+    {% else %}
+    {% if post.shortinfo %}
+    {{ post.shortinfo }}
+    {% elsif post.description %}
+    {{ post.description }}
+    {% else %}
+    {{ post.excerpt }}
+    {% endif %}
+    {% endif %}
+  </div>
+
+</article>
+{% endfor %}
+<hr/>
+
+<ul class="pager"> 
+
+  {% if paginator.previous_page %}
+  <li class="previous">
+    {% if paginator.previous_page == 1 %}
+    <a href="{{ site.BASE_PATH }}/">&larr; Newer</a>
+    {% else %}
+    <a href="{{ site.BASE_PATH }}/{{ site.paginate_path | replace: ':num', paginator.previous_page }}">&larr; Newer</a>
+    {% endif %}
+  </li>
+  {% else %}
+  <li class="previous disabled">
+    <a>&larr; Newer</a>
+  </li>
+  {% endif %}
+  
+  <li>
+    <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  </li>
+
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ site.BASE_PATH }}/{{ site.paginate_path | replace: ':num', paginator.next_page }}">Older &rarr;</a>
+  </li>
+  {% else %}
+  <li class="next disabled">
+    <a>Older &rarr;</a>        
+  </li>
+  {% endif %}
+
+</ul>
