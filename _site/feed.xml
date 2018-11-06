@@ -7,6 +7,30 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Single Responsibility Principle</title>
+				<description>&lt;p&gt;&lt;img src=&quot;https://preview.redd.it/fgqty05zgoyy.jpg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=bb6ce35728aacf199144de322a1455d675fa8077&quot; alt=&quot;image found from reddit&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This image is a perfect example why we need to adhere to SRP (Single Responsibility Principle).&lt;/p&gt;
+
+&lt;p&gt;Imagine how terrible would it be to have your elevator disabled due to a light switch that has tight coupling to the main functions of the elevator.&lt;/p&gt;
+
+&lt;p&gt;Examples like this are easy to understand but when it comes to coding information systems we still find it hard to find the boundaries between abstract concepts
+like business rules. My advice to circumvent that is to read business books and work closely with business people until you understand how the yout system works.&lt;/p&gt;
+
+&lt;p&gt;..to be continued&lt;/p&gt;
+
+&lt;h3 id=&quot;other-sources-you-can-read&quot;&gt;Other Sources you can read&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.oodesign.com/single-responsibility-principle.html&quot;&gt;https://www.oodesign.com/single-responsibility-principle.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://8thlight.com/blog/cory-foy/2012/08/07/thinking-differently-about-srp.html&quot;&gt;https://8thlight.com/blog/cory-foy/2012/08/07/thinking-differently-about-srp.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Tue, 06 Nov 2018 00:00:00 +0800</pubDate>
+				<link>/softwaredesign/2018/11/06/single-responsibility-principle.html</link>
+				<guid isPermaLink="true">/softwaredesign/2018/11/06/single-responsibility-principle.html</guid>
+			</item>
+		
+			<item>
 				<title>Blog reboot</title>
 				<description>&lt;p&gt;This new blog at github pages is still in progress. I will be moving my old posts from my decommissioned Wordpress blog soon.
 I decided to move to github pages because it is free and so that even if I ever leave Software Development and forget to pay for my domains and hosting, Any piece of information that I would write could still remain (hopefully even long after im dead. lol).
