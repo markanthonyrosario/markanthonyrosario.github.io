@@ -7,6 +7,26 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>OOP basics using PHP (no theories for now!)</title>
+				<description>&lt;p&gt;Quote from the site&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;This is not a long-winded theoretical blathering that you see all too often; instead, we actually start
+writing OO code very quickly. I believe that this ‘hands-on’ style of learning, makes understanding OO (object oriented)
+PHP much easier… and less boring too!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;im keeping this as a bookmark as this site (killerphp.com) really helped me when i was handed with OOP PHP codes back when i did not know OOP.&lt;/p&gt;
+
+&lt;p&gt;source: &lt;a href=&quot;https://www.killerphp.com/tutorials/object-oriented-php/&quot;&gt;https://www.killerphp.com/tutorials/object-oriented-php/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;source(PDF version): &lt;a href=&quot;http://www.killerphp.com/downloads/object-oriented-php/downloads/oop_in_php_tutorial.pdf&quot;&gt;http://www.killerphp.com/downloads/object-oriented-php/downloads/oop_in_php_tutorial.pdf&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Thu, 08 Nov 2018 00:00:00 +0800</pubDate>
+				<link>/programming%20basics/2018/11/08/oop-in-php-basics.html</link>
+				<guid isPermaLink="true">/programming%20basics/2018/11/08/oop-in-php-basics.html</guid>
+			</item>
+		
+			<item>
 				<title>Single Responsibility Principle</title>
 				<description>&lt;p&gt;&lt;img src=&quot;https://preview.redd.it/fgqty05zgoyy.jpg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=bb6ce35728aacf199144de322a1455d675fa8077&quot; alt=&quot;image found from reddit&quot; /&gt;&lt;/p&gt;
 
