@@ -19,12 +19,12 @@ defaults:
 description: linkedin.com/in/mark-anthony-rosario/
 author:
   name: mark rosario
-  email: asdasd@asdsa.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: asdsad
+  email: -
+  github: -
+  twitter: -
+  pinterest: -
+  linkedin: -
+  bio: -
   email_md5: 528fc0f7c43fead98ee12220c630ac5a
 
 rss_path: feed.xml

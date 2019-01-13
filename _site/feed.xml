@@ -7,6 +7,45 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Ansible Users Group Meetup (Jan 12, 2019)</title>
+				<description>&lt;blockquote&gt;
+  &lt;p&gt;You’re The Average Of The Five People You Spend The Most Time With&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Yesterday (Jan 12, 2019) I attended the &lt;a href=&quot;https://www.facebook.com/events/2275325182742020/&quot;&gt;Ansible Users Group's First meetup for 2019&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We had a short Intro by sir Michael Calizo (Principal Technical Account Manager at Red Hat) about Ansible 
+&lt;img src=&quot;/assets/postimages/ansible-attendees.png&quot; alt=&quot;Attendees with sir Michael Calizo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;and had a short workshop on how to monitor, configure, backup and restore Network Devices using ansible 
+Workshop slides and activites are here:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://network-automation.github.io/linklight/decks/ansible_network.pdf&quot;&gt;Ansible Network Deck&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://network-automation.github.io/linklight/decks/ansible-networking_v2.html#/16&quot;&gt;https://network-automation.github.io/linklight/decks/ansible-networking_v2.html#/16&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://network-automation.github.io/linklight/exercises/networking_v2/&quot;&gt;https://network-automation.github.io/linklight/exercises/networking_v2/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/postimages/ansible-workshop.jpg&quot; alt=&quot;ansible-workshop.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I frequently attend meetups like this to learn new stuff (regardless if i can use it immediately at work, it will be useful down the road)
+and to meet new cool and outgoing people and learn how they do things within their own organizations. 
+They also have some swags too :)
+&lt;img src=&quot;/assets/postimages/ansible-swags.jpg&quot; alt=&quot;ansible-swags.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;the cool and awesome venue was sponsored by &lt;a href=&quot;https://ph.itgroupinc.asia/&quot;&gt;https://ph.itgroupinc.asia/&lt;/a&gt; at their quezon city office.
+&lt;img src=&quot;/assets/postimages/ansible-itgroupoffice.jpg&quot; alt=&quot;ansible-itgroupoffice.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/postimages/ansiple-usual-pizza.jpg&quot; alt=&quot;ansiple-usual-pizza.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Join us at the next meetup! &lt;a href=&quot;https://www.meetup.com/Ansible-User-Philippines/&quot;&gt;https://www.meetup.com/Ansible-User-Philippines/&lt;/a&gt;
+You can also follow the group on facebook! &lt;a href=&quot;https://www.facebook.com/groups/250315538810869/?ref=br_rs&quot;&gt;https://www.facebook.com/groups/250315538810869/?ref=br_rs&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				<pubDate>Sun, 13 Jan 2019 00:00:00 +0800</pubDate>
+				<link>/tech%20events/2019/01/13/ansible-users-group-meetup.html</link>
+				<guid isPermaLink="true">/tech%20events/2019/01/13/ansible-users-group-meetup.html</guid>
+			</item>
+		
+			<item>
 				<title>OOP basics using PHP (no theories for now!)</title>
 				<description>&lt;p&gt;Quote from the site&lt;/p&gt;
 &lt;blockquote&gt;
