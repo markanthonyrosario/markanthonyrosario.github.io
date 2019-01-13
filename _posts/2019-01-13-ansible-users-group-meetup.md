@@ -30,7 +30,10 @@ the cool and awesome venue was sponsored by [https://ph.itgroupinc.asia/](https:
 ![ansible-itgroupoffice.jpg](/assets/postimages/ansible-itgroupoffice.jpg)
 ![ansiple-usual-pizza.jpg](/assets/postimages/ansiple-usual-pizza.jpg)
 
+
+1 
 Join us at the next meetup! [https://www.meetup.com/Ansible-User-Philippines/](https://www.meetup.com/Ansible-User-Philippines/)
+
 You can also follow the group on facebook! [https://www.facebook.com/groups/250315538810869/?ref=br_rs](https://www.facebook.com/groups/250315538810869/?ref=br_rs)
 
 
