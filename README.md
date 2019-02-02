@@ -1,3 +1,14 @@
+# Install
+```
+bunde install
+```
+
+# Run
+```
+bundle exec jekyll serve
+```
+
+
 dbyll
 =====
 

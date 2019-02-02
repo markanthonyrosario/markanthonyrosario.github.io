@@ -1,4 +1,4 @@
----
+the guide that personally helped me start working with OOP 7yrs ago!---
 layout: post
 title: Single Responsibility Principle
 categories: [SoftwareDesign]

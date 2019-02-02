@@ -3,7 +3,7 @@ layout: post
 title: Ansible Users Group Meetup (Jan 12, 2019)
 categories: [Tech Events]
 tags: [events, networking, learning]
-description: the guide that personally helped me start working with OOP 7yrs ago!
+description: learning new things on a weekend
 ---
 
 > You're The Average Of The Five People You Spend The Most Time With
@@ -31,7 +31,7 @@ the cool and awesome venue was sponsored by [https://ph.itgroupinc.asia/](https:
 ![ansiple-usual-pizza.jpg](/assets/postimages/ansiple-usual-pizza.jpg)
 
 
-1 
+11 
 Join us at the next meetup! [https://www.meetup.com/Ansible-User-Philippines/](https://www.meetup.com/Ansible-User-Philippines/)
 
 You can also follow the group on facebook! [https://www.facebook.com/groups/250315538810869/?ref=br_rs](https://www.facebook.com/groups/250315538810869/?ref=br_rs)

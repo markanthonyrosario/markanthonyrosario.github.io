@@ -7,6 +7,37 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>My Guiding Principles for Proactive Work</title>
+				<description>&lt;blockquote&gt;
+  &lt;p&gt;Be the boss you never had&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- &lt;insert the circle-of-concern-vs-circle-of-influence-here&gt; --&gt;
+&lt;p&gt;Do not blame other people your your lack of growth.&lt;/p&gt;
+
+&lt;p&gt;Take it upon yourself to manage your career.&lt;/p&gt;
+
+&lt;p&gt;“Think like a Manager, Act like a leader”, stop the &lt;a href=&quot;https://ideavisionaction.com/entrepreneurship/entrepreneurs-beware-of-the-employee-mindset/&quot;&gt;Employee Mindset&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Train your people to be better than you&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is the only true way to scale your operations.&lt;/p&gt;
+
+&lt;p&gt;Beware of the &lt;a href=&quot;http://franklincoveystephenpearson.blogspot.com/2011/01/abundance-mentality-vs-scarcity.html&quot;&gt;Scarcity Mindset&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;these thoughts are just 2 of the many ideas i have learned from Chapter1:Proactivity &lt;a href=&quot;https://www.franklincovey.com/the-7-habits.html&quot;&gt;The 7 Habits of Highly Effective People&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I highly recommend that you people read it to improve both their work and personal life.&lt;/p&gt;
+
+</description>
+				<pubDate>Sat, 02 Feb 2019 00:00:00 +0800</pubDate>
+				<link>/work%20ethics/2019/02/02/proactive-work-attitude.html</link>
+				<guid isPermaLink="true">/work%20ethics/2019/02/02/proactive-work-attitude.html</guid>
+			</item>
+		
+			<item>
 				<title>Ansible Users Group Meetup (Jan 12, 2019)</title>
 				<description>&lt;blockquote&gt;
   &lt;p&gt;You’re The Average Of The Five People You Spend The Most Time With&lt;/p&gt;
@@ -36,7 +67,7 @@ They also have some swags too :)
 &lt;img src=&quot;/assets/postimages/ansible-itgroupoffice.jpg&quot; alt=&quot;ansible-itgroupoffice.jpg&quot; /&gt;
 &lt;img src=&quot;/assets/postimages/ansiple-usual-pizza.jpg&quot; alt=&quot;ansiple-usual-pizza.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;1 
+&lt;p&gt;11 
 Join us at the next meetup! &lt;a href=&quot;https://www.meetup.com/Ansible-User-Philippines/&quot;&gt;https://www.meetup.com/Ansible-User-Philippines/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;You can also follow the group on facebook! &lt;a href=&quot;https://www.facebook.com/groups/250315538810869/?ref=br_rs&quot;&gt;https://www.facebook.com/groups/250315538810869/?ref=br_rs&lt;/a&gt;&lt;/p&gt;
@@ -68,8 +99,16 @@ PHP much easier… and less boring too!&lt;/p&gt;
 			</item>
 		
 			<item>
-				<title>Single Responsibility Principle</title>
-				<description>&lt;p&gt;&lt;img src=&quot;https://preview.redd.it/fgqty05zgoyy.jpg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=bb6ce35728aacf199144de322a1455d675fa8077&quot; alt=&quot;image found from reddit&quot; /&gt;&lt;/p&gt;
+				<title>Software Development Blog</title>
+				<description>&lt;p&gt;the guide that personally helped me start working with OOP 7yrs ago!—
+layout: post
+title: Single Responsibility Principle
+categories: [SoftwareDesign]
+tags: [SOLID]
+description: S of the S.O.L.I.D principles
+—&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://preview.redd.it/fgqty05zgoyy.jpg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=bb6ce35728aacf199144de322a1455d675fa8077&quot; alt=&quot;image found from reddit&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This image is a perfect example why we need to adhere to SRP (Single Responsibility Principle).&lt;/p&gt;
 
@@ -88,8 +127,8 @@ PHP much easier… and less boring too!&lt;/p&gt;
 &lt;/ul&gt;
 </description>
 				<pubDate>Tue, 06 Nov 2018 00:00:00 +0800</pubDate>
-				<link>/softwaredesign/2018/11/06/single-responsibility-principle.html</link>
-				<guid isPermaLink="true">/softwaredesign/2018/11/06/single-responsibility-principle.html</guid>
+				<link>/2018/11/06/single-responsibility-principle.html</link>
+				<guid isPermaLink="true">/2018/11/06/single-responsibility-principle.html</guid>
 			</item>
 		
 			<item>
