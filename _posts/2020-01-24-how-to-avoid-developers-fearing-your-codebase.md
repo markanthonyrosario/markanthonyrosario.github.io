@@ -35,7 +35,9 @@ greatly inspired by https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
 * `Running Tests` - how to ensure that the project really works before others start working on it
 * `Deployment` - how to release the finished project and some details where the application is actually in use right now
 * `Built With` - tools/frameworks used, to quickly match people who could work on this project.
-* `Contributing` - Coding standards / Design Decisions so the codebase will retain [looking like it was written by a single person](https://www.youtube.com/watch?v=N9UPW-2wL5U) and therefore easier for future maintainers to understand.
+* `Contributing` - Coding standards / [Architecture Design Decisions](https://github.com/joelparkerhenderson/architecture_decision_record) so the codebase will retain [looking like it was written by a single person](https://www.youtube.com/watch?v=N9UPW-2wL5U) and therefore easier for future maintainers to understand.
+  * https://github.com/joelparkerhenderson/architecture_decision_record
+  * [Geek's Guide to leading teams - Pat Kua](https://www.youtube.com/watch?v=N9UPW-2wL5U)
 
 ## Proposed KPI for a maintanable Software Project
 * Software Developers (Especially Tech Leads) metrics should include "how easy is it to onboard new developers on projects that I led"
