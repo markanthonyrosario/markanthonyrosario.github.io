@@ -21,9 +21,9 @@ description: reducing muda in a software project
 ## Proposed Solution
 * Borrow proper `README` formats from opensource projects
   * there are many guides/templates available online [like this](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-  * https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
+  * [github.com/PurpleBooth/README-template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
   * this removes the question of `WTH do i do with this repository?`
-  * this reduces the need for rework because a copy+paste guide is already available
+  * this removes the `muda` rework because a copy+paste guide is already available
   * this allows a new-developer-in-the-project to quickly start working on business requirements and not waste time on technical specifics that should've already been handled by the author/initial team who worked on the project.
 
 ## Quick Breakdown of the sections of the proposed README format
