@@ -15,6 +15,8 @@ It made me realize lots of things which included the motivation to really write 
 
 ![austin_kleon_steal_like_an_artist](/assets/postimages/austin_keon_steal_like_an_artist.png)
 [http://austinkleon.com/steal/](http://austinkleon.com/steal/)
+
+
 So I would like to recommend this book to everyone and hope that It can inspire you the same way it has inspired me. 🙂
 
 
