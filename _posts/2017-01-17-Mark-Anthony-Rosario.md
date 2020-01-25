@@ -18,6 +18,7 @@ I enjoy providing tech solutions to organizations where…
 I believe that
 
 * life is short, so i dont like people not saying what they really meant.
+* making it easy for people to do the right things
 
 
 I'm a web developer and like typical web developers  (atleast those that i know) I…
@@ -37,4 +38,4 @@ hoping that one day I could connect all of my thoughts
 > “Everything that needs to be said has already been said. But since no one was listening, everything must be said again.”
 -André Gide
 
-![steal_like_an_artist_art_by_austin_kleon.gif](assets/postimages/../../../assets/postimages/steal_like_an_artist_art_by_austin_kleon.gif)
+![steal_like_an_artist_art_by_austin_kleon.gif](/assets/postimages/steal_like_an_artist_art_by_austin_kleon.gif)
