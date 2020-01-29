@@ -25,6 +25,8 @@ However, some organizations have these cultures instead
 Now which kind of culture do you prefer?
 
 > [Your company’s culture is who you hire fire and promote.](https://worldpositive.com/your-companys-culture-is-who-you-hire-fire-and-promote-c69f84902983#.7dlt9srsk)
+
+
 Positive Winning Cultures do not just happen, they are built. (or else you are entrusting your organizations’s success to luck)
 Culture begins from hiring, continues during training/development and is reinforced during day to day activities.
 If you aim to have a culture of cooperation. they you should  hire people who talk, people who genuinely like to cooperate and provide venues for them to openly share ideas. You cannot just hire random people because you think they are smart and expect them to magically cooperate.
