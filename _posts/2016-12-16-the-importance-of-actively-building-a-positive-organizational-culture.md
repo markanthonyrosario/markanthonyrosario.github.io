@@ -33,12 +33,6 @@ If you aim to have a culture of continuous learning then hire people who hunger 
 
 > culture eats strategy for breakfast – originated from Peter Drucker (management theorist) and made famous by Mark Fields (President, Ford Motors)
 
-
-![wtf_per_minute_from_coding_horror](https://blog.codinghorror.com/content/images/uploads/2009/02/6a0120a85dcdae970b012877707a45970c-pi.png)
-* [image from Jeff Atwood's Coding Horror blog](http://blog.codinghorror.com)
-
-> I could list all of the qualities that I notice in clean code, but there is one overarching quality that leads to all of them. Clean code always looks like it was written by someone who cares. There is nothing obvious that you can do to make it better. All of those things were thought about by the code’s author, and if you try to imagine improvements, you’re led back to where you are, sitting in appreciation of the code someone left for you—code left by someone who cares deeply about the craft.
-
 have you ever had a problem and tried to introduce a new tool
 hoping that it would magically fix your problems and then
 it failed due to resistance of members against the new tool?
@@ -58,5 +52,3 @@ if you are a software developer who is interested in microservices you might alr
 
 To do: Insert toyota way here
 To do: copy other examples from drafts and post here
-
-[https://dzone.com/articles/what-clean-code-%E2%80%93-quotes](https://dzone.com/articles/what-clean-code-%E2%80%93-quotes)
