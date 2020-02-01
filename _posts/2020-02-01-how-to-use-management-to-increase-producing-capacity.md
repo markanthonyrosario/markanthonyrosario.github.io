@@ -18,7 +18,7 @@ description: what to do where micromanagement doesn't work (and where micromanag
   * for people like them, routine is a breather.
 
 ## Where Micromanagement Doesn't work
-* it does not work for `G` people (see [Alderfer's ERG theory](https://en.wikipedia.org/wiki/ERG_theory) people.
+* it does not work for `G` people (see [Alderfer's ERG theory](https://en.wikipedia.org/wiki/ERG_theory))
 * if u are a `G` person.even you won't enjoy being micromanaged (but subconciously we tend to do it to others)
 
 ## How do you increase output with `G` people?
