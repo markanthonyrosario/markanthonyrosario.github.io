@@ -3,7 +3,7 @@ layout: post
 title: How to use Management to increase Producing Capacity
 categories: [Productivity]
 tags: []
-description: what to do where micromanagement doesn't work (and where micromanagement does work) From Habit3: Putting first things first, Seven Habits of Highly Effective People by Stephen Covey
+description: what to do where micromanagement doesn't work ,and where micromanagement does work, From Habit3: Putting first things first, Seven Habits of Highly Effective People by Stephen Covey
 ---
 
 ![effective-management-fulcrum](https://1.bp.blogspot.com/-KdbV74qE7k4/XZ6GIFTiJMI/AAAAAAAApvU/9k14-qC2KLsTQ7ed4-dExGG2ZRapLMh9gCNcBGAsYHQ/s400/management%2Bis%2Bessentially%2Bmoving%2Bthe%2Bfulcrum%2Bover.png)
