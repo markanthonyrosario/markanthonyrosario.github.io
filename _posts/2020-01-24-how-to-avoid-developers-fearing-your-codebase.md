@@ -19,6 +19,7 @@ description: reducing muda in a software project
   * then the next developer has to do it again because THERE IS NO AUTOMATION NOR DOCUMENTATION (see comic above)
 
 ## Proposed Solution
+* INNERSOURCING - https://resources.github.com/whitepapers/introduction-to-innersource/
 * Borrow proper `README` formats from opensource projects
   * there are many guides/templates available online [like this](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
   * [github.com/PurpleBooth/README-template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
