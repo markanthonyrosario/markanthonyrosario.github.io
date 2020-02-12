@@ -11,14 +11,16 @@ description: the author, hire me?
 I enjoy providing tech solutions to organizations where…
 
 * developers, operations and product designers work together as partners rather than treating each other as just “workers” or “resources”
+* Ideas/Design(WHYs) is discussed and explicitly defined before implementation(HOWs)
 * learning is highly valued
-* Quality and Efficiency is being pursued.
+* Quality is being pursued.
+* Flow Efficiencty is valued over Resource Efficiency
 * truth is shared and prevents from people being treated as mushrooms (see mushroom management)
 
 I believe that
 
 * life is short, so i dont like people not saying what they really meant.
-* making it easy for people to do the right things
+* we should make it easy for people to do the right things. 
 
 
 I'm a web developer and like typical web developers  (atleast those that i know) I…
