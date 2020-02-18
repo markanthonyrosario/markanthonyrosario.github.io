@@ -21,7 +21,7 @@ I believe that
 
 * life is short, so i dont like people not saying what they really meant.
 * we should make it easy for people to do the right things. 
-
+* https://www.16personalities.com/infp-personality
 
 I'm a web developer and like typical web developers  (atleast those that i know) I…
 
