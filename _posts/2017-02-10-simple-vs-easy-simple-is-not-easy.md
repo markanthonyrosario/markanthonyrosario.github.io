@@ -12,6 +12,11 @@ description: It is not easy to make things simple, choosing easiness may end up 
 showing that while many choose easiness they may end up with complexity,
 and the better way is to choose easiness along the simplicity path.
 
-> Simplicity is prerequisite for reliability. – [Edsger W. Dijkstra](https://en.wikiquote.org/wiki/Edsger_W._Dijkstra)
+*  simple is not easy, 
+*  it takes effort to simplify things, 
+*  it is easy to make complex things, 
+*  it takes skill to simplify them, 
+*  it is not about how many tools you know, it is about simplifying the way they connect to each other and how your users use them.
+*  we should aim to reach efficiency by simplicity 
 
- 
+> Simplicity is prerequisite for reliability. – [Edsger W. Dijkstra](https://en.wikiquote.org/wiki/Edsger_W._Dijkstra)
