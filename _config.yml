@@ -1,40 +1,66 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
-
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-highlighter: rouge
+# Jekyll configuration
+#markdown: redcarpet
+#highlighter: pygments
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
-title: MarkRosario
+highlighter: rouge
+paginate: 5
+language: 'en-uk'
 
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: Software Development Blog
+# Website info
+name: "Let's Make It Easy for everyone to do the right thing."
+description: "Mark Anthony Rosario"
 
-description: linkedin.com/in/mark-anthony-rosario/
-author:
-  name: mark rosario
-  email: hiddenemail@protected.com
-  github: https://github.com/markanthonyrosario
-  twitter: na
-  pinterest: na
-  linkedin: na
-  bio: i love software development and going off-grid
-  email_md5: 528fc0f7c43fead98ee12220c630ac5a
+short_url: 'jekyllt.github.io/jasper/'
+google_analytics: UA-69281367-1
+disqus: username
+# edit baseurl to simply '/' if using as your personal page (instead of a project page)
+baseurl: /
 
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
+# Permalinks
+permalink: /:title
+# permalink: /author/:username
+# permalink: /tag/:tag
 
-# set it as url of an image
-# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+# gems and other configs
+plugins: [jekyll-paginate]
 
-BASE_PATH:
+# Additional settings available on the front-matter
+# Site logo in the index.html (as in demo.ghost.io)
+# Author's page cover in _layouts/author.html
+# The same for page.html and tag.html layouts
+# Post's page cover as a per-post basis _posts/...
+# Disqus comments as a per-post basis
+# ...
 
-plugins:
-  - jekyll-paginate
+
+# Settings for builing master branch with travis-ci
+# with jekyll-travis
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
+safe: false
+lsi: false
+username: jekyllt
+repo: jasper
+branch: master
+relative_source: ../jasper/
+destination: ../jasper-pages/
+production_url:  https://jekyllt.github.io/jasper/
+source_url:  https://github.com/jekyllt/jasper/
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
+  - node_modules
+  - .git

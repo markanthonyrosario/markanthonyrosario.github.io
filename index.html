@@ -1,75 +1,37 @@
 ---
-layout: page
-tagline:
+layout: default
+title: Finding The Way Home
+cover: 'assets/images/cover1.jpg'
+class: 'home-template'
+navigation: True
+logo: 'assets/images/ghost.png'
+current: home
 ---
+<!-- < default -->
+<!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-{% for post in paginator.posts %}
+<!-- The big featured header  -->
+<header class="main-header {% if page.cover %}"
+        style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
+    <nav class="main-nav overlay clearfix">
+        {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a>{% endif %}
+        {% if page.navigation %}
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        {% endif %}
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{ site.name }}</h1>
+            <h2 class="page-description">{{ site.description }}</h2>
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+</header>
 
-<article class="home">
+<!-- The main content area on the homepage -->
+<main id="content" class="content" role="main">
 
-  
+    <!-- The tag below includes the post loop - partials/loop.hbs -->
+    {% include loop.html %}
 
-  <h3>
-    <a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-  </h3>
-
-  <div>
-    {% if post.fullview %}
-    {{ post.content }}
-    {% else %}
-    {% if post.shortinfo %}
-    {{ post.shortinfo }}
-    {% elsif post.description %}
-    {{ post.description }}
-    {% else %}
-    {{ post.excerpt }}
-    {% endif %}
-    {% endif %}
-  </div>
-  <span class="post-date">
-    {% assign d = post.date | date: "%d" | plus:'0' %}
-    {{ post.date | date: "%B" }}
-    {% case d %}
-    {% when 1 or 21 or 31 %}{{ d }}st,
-    {% when 2 or 22 %}{{ d }}nd,
-    {% when 3 or 23 %}{{ d }}rd,
-    {% else %}{{ d }}th,
-    {% endcase %}
-    {{ post.date | date: "%Y" }}
-  </span>
-
-</article>
-{% endfor %}
-<hr/>
-
-<ul class="pager"> 
-
-  {% if paginator.previous_page %}
-  <li class="previous">
-    {% if paginator.previous_page == 1 %}
-    <a href="{{ site.BASE_PATH }}/">&larr; Newer</a>
-    {% else %}
-    <a href="{{ site.BASE_PATH }}/{{ site.paginate_path | replace: ':num', paginator.previous_page }}">&larr; Newer</a>
-    {% endif %}
-  </li>
-  {% else %}
-  <li class="previous disabled">
-    <a>&larr; Newer</a>
-  </li>
-  {% endif %}
-  
-  <li>
-    <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  </li>
-
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ site.BASE_PATH }}/{{ site.paginate_path | replace: ':num', paginator.next_page }}">Older &rarr;</a>
-  </li>
-  {% else %}
-  <li class="next disabled">
-    <a>Older &rarr;</a>        
-  </li>
-  {% endif %}
-
-</ul>
+</main>

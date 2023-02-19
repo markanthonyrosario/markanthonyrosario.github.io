@@ -1,0 +1,40 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: dbyll
+google_analytics: dbyll
+title: MarkRosario
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Software Development Blog
+
+description: linkedin.com/in/mark-anthony-rosario/
+author:
+  name: mark rosario
+  email: hiddenemail@protected.com
+  github: https://github.com/markanthonyrosario
+  twitter: na
+  pinterest: na
+  linkedin: na
+  bio: i love software development and going off-grid
+  email_md5: 528fc0f7c43fead98ee12220c630ac5a
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+plugins:
+  - jekyll-paginate
